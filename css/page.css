@@ -1,0 +1,223 @@
+@font-face{
+  font-family: "bold";
+  src: url(../fonts/bold.ttf);
+
+}
+
+@font-face{
+  font-family: "reg";
+  src: url(../fonts/regular.ttf);
+
+}
+
+/*_________img__________*/
+img#avatar{
+	width: 225px;
+	border :10px solid #f3f3f3;
+	border-radius: 200px;
+	margin-left: 15px;
+}
+img#fafabar{
+	padding-top: 10px;
+	margin-left: 15px;
+}
+img.like{
+	float: right;
+	width: 30px;
+	padding-left: 10px;
+}
+
+
+
+img#post_bg{
+	width: 100%;
+	z-index: 3;
+	padding: 0;margin: 0;
+}
+img#post_av{
+	margin-top: -10px;
+	margin-left: -10px;
+	width: 65px;
+	border: 3px solid #fff;
+	border-radius: 40px;
+	z-index: 5;
+	position: absolute;
+	
+}
+img#post_av2{
+
+	width: 65px;
+	border: 3px solid #fff;
+	border-radius: 40px;
+	z-index: 5;
+	position: absolute;
+}
+img#comment_icon{
+	padding-left: 25px;
+	display: inline-block;
+}
+
+/*_________img__________*/
+
+
+/*_________text_________*/
+h1#main_name{
+	display: inline-block;
+	font-family: "bold";
+	font-size: 24pt;
+	color: #000;
+	text-transform: uppercase;
+	padding-left: 5px;
+	padding-top: 10px;
+	position: absolute;
+}
+#param h1{
+	display: inline-block;
+	font-family: "bold";
+	font-size: 24pt;
+	color: #30395c;
+	text-transform: uppercase;
+	padding-left: 25px;	
+}
+#param h4{
+	padding-left: 15px;
+	display: inline-block;
+
+}
+h5#PName{
+	padding-left: 15px;
+	display: inline-block;
+	color: #463f86;
+	font-family: "reg";
+	font-size: 15pt;
+}
+h5#Ptime {
+	padding-left: 15px;
+	margin-top: -7px;
+	font-style: 8pt;
+	font-family: "reg";
+	color: #9b9b98;
+
+}
+h5#PName2{
+	color: #463f86;
+	font-family: "reg";
+	font-size: 15pt;
+	padding-left: 75px;
+}
+h5#Ptime2{
+	font-style: 8pt;
+	font-family: "reg";
+	color: #9b9b98;
+	padding-left: 75px;
+}
+h5#likes{
+	padding-right: 15px;
+	color: #463f86;
+	font-family: "reg";
+	font-size: 15pt;
+	text-align: right;
+}
+h5#like_label{
+	padding-right: 15px;
+	margin-top: -7px;
+	float: right;
+	text-align: right;
+	font-style: 8pt;
+	font-family: "reg";
+	color: #9b9b98;
+}
+h5#comment_label{
+	padding-top: 7px;
+	font-style: 8pt;
+	font-family: "reg";
+	color: #9b9b98;
+	display: inline-block;
+	padding-left: 10px;
+}
+h5#comment{
+	font-style: 9pt;
+	font-family: "reg";
+	color: #463f86;
+	display: inline-block;
+	padding-left: 10px;
+}
+/*_________text_________*/
+
+
+/*_________block________*/
+.stats {
+	margin-top: -90px;
+}
+#param{
+	margin-left: -20px;
+	margin-top: -69px;
+}
+.post{
+	padding-top: 10px;
+	width: 675px;
+	background-color: #fff;
+	margin-bottom: 25px;
+}
+section#head{
+	padding-bottom: 80px;
+	padding-left: 220px;
+}
+section.posts{
+	padding-left: 220px;
+}
+/*_________block________*/
+
+
+
+/*_________btn__________*/
+
+a#btn{
+	text-decoration: none;
+	color: #fff;
+	font-family: "bold";
+	font-size: 14pt;
+	text-transform: uppercase;
+	border: 1px solid #30395c;
+	border-radius: 10px;
+	padding-top: 22px;
+	padding-bottom: 20px;
+	padding-right: 85px;
+	padding-left:25px;
+	background: url(../img/plus_icon.png);
+	background-repeat: no-repeat;
+	background-position: 240px;
+	background-color: #30395c;
+	outline: none;
+	margin-top: 30px;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+
+/*_________btn__________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

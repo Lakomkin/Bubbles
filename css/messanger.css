@@ -1,0 +1,97 @@
+@font-face{
+  font-family: "bold";
+  src: url(../fonts/bold.ttf);
+
+}
+
+@font-face{
+  font-family: "reg";
+  src: url(../fonts/regular.ttf);
+
+}
+//_________________blocks
+#bubble {
+	color: red;
+
+}
+
+section#dialogs{
+	background-color: #f3f3f3;
+}
+
+textarea[name="my_news"]{
+	border: 0;
+	margin-top: 15px;
+	resize: none;
+	outline: none;
+}
+#input_div{
+	margin-left: -65px;
+	margin-top: -51px;
+	background-color: #fff;
+	height: 50px;
+	width: 595px;	
+}
+img[src="/img/lett_smile.png"]{
+ 	border-right: 1px solid #5c5472;
+ 	padding-top: 5px;
+	margin-top: -18px;
+	padding-bottom: 5px;
+	padding-right: 8px;
+}
+img[src="/img/lett_clip.png"]{
+	margin-top: -70px;
+	padding-left: 10px;
+}
+img[src="/img/lett_sent.png"]{
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+#frame{
+	margin-top: 10px;
+	background-color: #fff;
+	margin-left: 20px;
+	padding-bottom: 660px;
+	width: 200px;
+}
+#avatar{
+	border-radius: 30px;
+	width: 50px;
+	margin-bottom: -15px;
+	margin-left: -15px;
+	margin-right: 22px;
+}
+#grey_txt{
+	font-size: 18px;
+	font-family: "reg";
+	color: #a8a8a8;
+}
+
+#display{
+	height: 648px;
+	background-color: #fff;
+	margin-top: -706px;
+	margin-left: -65px;
+	width: 595px;
+}
+
+.interlocutor{
+	text-align: center;
+}
+#hr{
+	margin-top: -4px;
+	background-color: #bdbdbc;
+}
+iframe [src="/messanger/friends_display.php"]{
+	border: 0;
+}
+h5.name{
+	font-family: "reg";
+	padding: 0;
+	padding-left: 15px;
+}
+
+
+
+
+

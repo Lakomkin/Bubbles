@@ -1,0 +1,119 @@
+@font-face{
+  font-family: "bold";
+  src: url(../fonts/bold.ttf);
+
+}
+
+@font-face{
+
+  font-family: "reg";
+  src: url(../fonts/regular.ttf);
+
+}
+
+
+div.card{
+	background-color: #fff;
+
+}
+div.stats_holder{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	margin-left: 20px;
+}
+a#active_buttons{
+	margin-left: -10px;
+	width: 140px;
+	background-color: #464184;
+	border-radius: 4px;
+	font-family: "reg";
+	color: #fff;
+	font-size: 9pt;	
+	padding-top: 6px;
+	padding-bottom: 5px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+a#buttons{
+	margin-left: -10px;
+	width: 140px;
+	border: 1px solid #464184;
+	border-radius: 4px;
+	font-family: "reg";
+	color: #464184;
+	font-size: 9pt;	
+	padding-top: 5px;
+	padding-bottom: 3px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+div.common_friends{
+	margin-left: 50px;
+}
+/*______img______*/
+div.card img#person_avatar{
+	margin-top: 8px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	width: 80px;
+	border-radius: 40px;
+	float: left;
+}
+div.common img#common_friends{
+	padding: 0;
+	margin: 0;
+	width: 30px;
+	border-radius: 15px;
+	margin-left: -10px;
+}
+textarea#comment_area{
+	border: 0;
+}
+/*_____txt_____*/
+h4#name{
+	text-align: right;
+	color: #2b2c3c;
+	font-family: "reg";
+}
+h5#stats{
+	display: inline-block;
+}
+span#numb{
+	padding: 0;
+	margin: 0;
+	color: #281d45;
+	font-family: "reg";
+	font-size: 10pt;
+}
+span#subs{
+	padding: 0;
+	margin: 0;
+	padding-left: 2px;
+	font-size: 8pt;
+	color: #c0c0c0;
+	font-family: "reg";
+	padding-right: 8px;
+}
+span#city{
+	padding: 0;
+	margin: 0;
+	color: #464184;
+	font-family: "reg";
+	font-size: 10pt;
+}
+h5#common{
+	margin-top: 23px;
+}
+img#detail_av {
+	width: 70px;
+	border-radius: 50px;
+	margin-top: 15px;
+	position: relative
+}
+img#icons{
+	display: inline-block;
+	margin-left: 30px;
+}

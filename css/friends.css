@@ -1,0 +1,154 @@
+@font-face{
+  font-family: "bold";
+  src: url(../fonts/bold.ttf);
+
+}
+
+@font-face{
+
+  font-family: "reg";
+  src: url(../fonts/regular.ttf);
+
+}
+
+
+div.search_friends{
+	background-color: #fff;
+	margin-left: 10px;
+	margin-top: 15px;
+	border: 1px solid #fff; 
+	border-radius: 9px 0px 0px 9px; 
+	padding-right: 415px;
+	width: 660px;
+}
+div.friend_card{
+	padding: 0;
+	margin: 0;
+	width: 660px;
+	background-color: #fff;
+	margin-top: 15px;
+	margin-left: 10px;
+	border-radius: 9px 0px 0px 9px;
+}
+input#search_friends{
+	border: 0;
+	font-family: "reg";
+	font-size: 10pt;
+}
+div.right_column{
+	float: right;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+div.options{
+	background-color: #fff;
+}
+div.filters{
+	margin-top: 15px;
+	background-color: #fff;
+}
+div.left{
+	float: left;
+}
+#hr{
+	height: 1px;
+	width: 135px;
+	background-color: #908cbe;
+	margin-top: 11px;
+	margin-left: 12px;
+}
+/*____img_______*/
+.search_friends img[src="/img/search_icon.png"]{
+	padding-left: 15px;
+	padding-top: 12px;
+	padding: 12px;
+}
+.friend_card img {
+	width: 100px;
+	border-radius: 9px 0px 0px 9px;
+}
+/*_____txt_____*/
+
+h3#friends_name{
+	font-family: "reg";
+	color: #2b2c3c;
+	font-size: 11pt;
+}
+h3#friends_number{
+	font-family: "reg";
+	color: #281d45;
+	font-size: 12pt;
+	margin-top: -5px;	
+}
+h5#label{
+	font-family: "reg";
+	color: #c0c0c0;
+	font-size: 9pt;	
+}
+a#active_buttons{
+	width: 140px;
+	margin-right: 20px;
+	background-color: #464184;
+	border-radius: 4px;
+	font-family: "reg";
+	color: #fff;
+	font-size: 9pt;	
+	padding-top: 6px;
+	padding-bottom: 5px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+a#buttons{
+	margin-right: 20px;
+	width: 140px;
+	border: 1px solid #464184;
+	border-radius: 4px;
+	font-family: "reg";
+	color: #464184;
+	font-size: 9pt;	
+	padding-top: 5px;
+	padding-bottom: 3px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+a#active_buttons :hover{
+	text-decoration: none;
+}
+h3.option_txt{
+	padding: 0;
+	margin: 0;
+	font-family: "reg";
+	color: #464184;
+	font-size: 10pt;
+	padding-left: 22px;
+	padding-top: 20px;
+}
+span.num{
+	font-size: 10pt;
+	padding: 0;
+	margin: 0;
+	font-family: "reg";
+	background-color: #f84848;
+	border-radius: 20px;
+	color: #fff;
+	padding-top: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 1px;	
+	float: right;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+h3.possible_friends{
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+
+
+

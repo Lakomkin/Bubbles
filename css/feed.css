@@ -1,0 +1,59 @@
+@font-face{
+  font-family: "bold";
+  src: url(../fonts/bold.ttf);
+
+}
+
+@font-face{
+  font-family: "reg";
+  src: url(../fonts/regular.ttf);
+
+}
+
+#feed_notes{
+	margin-left: 30px;	
+}
+
+/*_____text_______*/
+h5#inputtext{
+	
+	font-family: "reg";
+	color: #cecece;
+}
+textarea[name="my_news"]{
+	border: 0;
+	margin-top: 15px;
+	resize: none;
+	outline: none;
+}
+/*_____text_______*/
+
+
+/*_____blocks______*/
+#input_div{
+	margin-left: 150px;
+	margin-top: -55px;
+	background-color: #fff;
+	height: 50px;
+	width: 543px;	
+}
+/*_____blocks______*/
+
+
+/*_____img______*/
+img[src="/img/lett_smile.png"]{
+ 	border-right: 1px solid #5c5472;
+ 	padding-top: 5px;
+	margin-top: -18px;
+	padding-bottom: 5px;
+	padding-right: 8px;
+}
+img[src="/img/lett_clip.png"]{
+	margin-top: -70px;
+	padding-left: 10px;
+}
+img[src="/img/lett_sent.png"]{
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+/*_____img______*/
